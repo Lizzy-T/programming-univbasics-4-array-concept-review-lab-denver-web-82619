@@ -19,9 +19,10 @@ def find_max_value(array)
   i = 1
   max = array[0]
   while i < array.length do
-    if max < array[i]
-      return max = array[i]
+    if max > array[i]
+      return max
     else
+      max = array[i]
       return max
     end
     i += 1
