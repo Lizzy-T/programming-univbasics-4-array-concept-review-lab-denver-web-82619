@@ -1,8 +1,9 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
   i = 0
+  value_to_find = magic_number
   while i < array.length do
-    if value_to_find = array[i]
+    if magic_number == array[i]
       index = i
       return index
     end
