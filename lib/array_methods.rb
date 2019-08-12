@@ -7,7 +7,7 @@ def find_element_index(array, value_to_find)
     end
     i += 1
   end
-  if i.class == Integer 
+  if i == value_to_find
     return i
   else
     return nil
